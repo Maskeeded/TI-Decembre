@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galerie</title>
+    <title><?= $title ?></title>
     <link rel="stylesheet" href="../public/css/style.css">
     <link href="../public/js/node_modules/lightbox2/src/css/lightbox.css" rel="stylesheet" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
