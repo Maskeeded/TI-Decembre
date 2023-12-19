@@ -7,6 +7,7 @@ $title = "Accueil";
 
 if (!empty($_GET['p'])){
     switch($_GET['p']){
+
         case "geo":
             $page = "../templates/geographie.php";
             $title = "Géographie";
@@ -36,9 +37,6 @@ if (!empty($_GET['p'])){
             $title = "404";
             break;
     }
-}else{
-    $page = "../templates/accueil.php";
-    $title = "Accueil";
 }
 
 require("../templates/$page");

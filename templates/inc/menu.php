@@ -7,6 +7,6 @@
   <li><a href="index.php?p=cult">Culture</a></li>
   <li><a href="index.php?p=gal">Galerie</a></li>
   <li><a href="index.php?p=form">Contact</a></li>
-  <li><a href="index.php?p=lik">Liens</a></li>
+  <li><a href="index.php?p=link">Liens</a></li>
 </ul>
 
