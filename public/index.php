@@ -7,31 +7,27 @@ $title = "Accueil";
 
 if (!empty($_GET['p'])){
     switch($_GET['p']){
-        case "accueil":
-            $page = "../templates/accueil.php";
-            $title = "Accueil";
-            break;
-        case "geographie":
+        case "geo":
             $page = "../templates/geographie.php";
             $title = "Géographie";
             break;
-        case "histoire":
+        case "hist":
             $page = "../templates/histoire.php";
             $title = "Histoire";
             break;
-        case "liens":
+        case "link":
             $page = "../templates/liens.php";
             $title = "Liens";
             break;
-        case "culture":
+        case "cult":
             $page = "../templates/culture.php";
             $title = "Culture";
             break;
-        case "contact":
+        case "form":
             $page = "../templates/contact.php";
             $title = "Contact";
             break;
-        case "galerie":
+        case "gal":
             $page = "../templates/galerie.php";
             $title = "Galerie"; 
             break;
@@ -40,6 +36,9 @@ if (!empty($_GET['p'])){
             $title = "404";
             break;
     }
+}else{
+    $page = "../templates/accueil.php";
+    $title = "Accueil";
 }
 
 require("../templates/$page");
