@@ -30,12 +30,12 @@
 
 
             <ul class="fast-links-accueil">
-                <li><a href="index.php?p=geographie">Une breve presentation de Vienne sur son role en Autriche et dans le monde</a></li>
-                <li><a href="index.php?p=histoire">Un rappel historique, de sa fondation a aujourd'hui</a></li>
-                <li><a href="index.php?p=culture">Un tour d'horizon et matiere d'art et culture</a></li>
-                <li><a href="index.php?p=galerie">Une galerie de photographies</a></li>
-                <li><a href="index.php?p=contact">Un formulaire pour nou contacter</a></li>
-                <li><a href="index.php?p=liens">Des liens vers des sites partenaires</a></li>
+                <li><a href="index.php?p=geo">Une breve presentation de Vienne sur son role en Autriche et dans le monde</a></li>
+                <li><a href="index.php?p=hist">Un rappel historique, de sa fondation a aujourd'hui</a></li>
+                <li><a href="index.php?p=cult">Un tour d'horizon et matiere d'art et culture</a></li>
+                <li><a href="index.php?p=gal">Une galerie de photographies</a></li>
+                <li><a href="index.php?p=form">Un formulaire pour nou contacter</a></li>
+                <li><a href="index.php?p=link">Des liens vers des sites partenaires</a></li>
             </ul>
 
             <p style="text-align: center;">Source: <a href="https://fr.wikipedia.org/wiki/Vienne_(Autriche)" target="_blank" >Wikipedia - Ville de Vienne</a></p>
