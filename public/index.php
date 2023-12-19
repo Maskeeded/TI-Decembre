@@ -1,6 +1,6 @@
 <?php  
 
-$page = "accueil.php";
+$content = "accueil.php";
 $title = "Accueil";
 
 // var_dump($_GET);
@@ -8,34 +8,34 @@ $title = "Accueil";
 if (!empty($_GET['p'])){
     switch($_GET['p']){
         case "geo":
-            $page = "../templates/geographie.php";
+            $content = "../templates/geographie.php";
             $title = "Géographie";
             break;
         case "hist":
-            $page = "../templates/histoire.php";
+            $content = "../templates/histoire.php";
             $title = "Histoire";
             break;
         case "link":
-            $page = "../templates/liens.php";
+            $content = "../templates/liens.php";
             $title = "Liens";
             break;
         case "cult":
-            $page = "../templates/culture.php";
+            $content = "../templates/culture.php";
             $title = "Culture";
             break;
         case "form":
-            $page = "../templates/contact.php";
+            $content = "../templates/contact.php";
             $title = "Contact";
             break;
         case "gal":
-            $page = "../templates/galerie.php";
+            $content = "../templates/galerie.php";
             $title = "Galerie"; 
             break;
         default:
-            $page = "../templates/page-404.php";
+            $content = "../templates/page-404.php";
             $title = "404";
             break;
     }
 }
 
-require("../templates/$page");
+require("../templates/$content");
