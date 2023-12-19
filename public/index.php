@@ -7,7 +7,6 @@ $title = "Accueil";
 
 if (!empty($_GET['p'])){
     switch($_GET['p']){
-
         case "geo":
             $page = "../templates/geographie.php";
             $title = "Géographie";
