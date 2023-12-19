@@ -14,7 +14,7 @@
         <div class="page-container">
 
         <h1 class=page-title>Bienvenue sur notre site consacre a Vienne.</h1>
-            <img src="../public/img/armoiries.jpg" class="page-image" alt="Photo de armoiries Vienes">
+            <img src="img/armoiries.jpg" class="page-image" alt="Photo de armoiries Vienes">
 
             <p class=page-text> 
             Vienne est la capitale et la plus grande ville de l'Autriche ; elle est aussi l'un des neuf Länder (État fédéré) du pays (en allemand : Bundesland Wien).

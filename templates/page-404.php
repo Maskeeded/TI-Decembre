@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?></title>
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
         <div class="page-container">
 
         <h1 class=page-title>ERROR 404.</h1>
-            <img src="../public/img/404.jpg" class="page-image" alt="Photo de armoiries Vienes">
+            <img src="img/404.jpg" class="page-image" alt="Photo de armoiries Vienes">
 
             <p class=page-text> 
 

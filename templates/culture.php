@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?></title>
-    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="page-container">
 
         <h1 class=page-title>Culture</h1>
-            <img src="../public/img/culture.jpg" class="page-image" alt="Photo">
+            <img src="img/culture.jpg" class="page-image" alt="Photo">
 
             <p class=page-text-other> 
 
@@ -145,5 +145,5 @@
         </div>
     
 </body>
-<script type="text/javascript" src="../public/js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
